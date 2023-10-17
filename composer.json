@@ -9,6 +9,12 @@
             "email": "jordan@langleyfoxall.co.uk"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laminblur/laravel-password-exposed-validation-rule.git"
+        }
+    ],
     "require": {
         "php": "^8.0",
         "laravel/framework": "^10.0",
@@ -19,12 +25,7 @@
         "php-coveralls/php-coveralls": "^2.0",
         "orchestra/testbench": "^5.17.1|^7.0|^8.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/laminblur/laravel-password-exposed-validation-rule.git"
-        }
-    ],
+
     "autoload": {
         "psr-4": {
             "LangleyFoxall\\LaravelNISTPasswordRules\\": "src/"
