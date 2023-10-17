@@ -19,6 +19,12 @@
         "php-coveralls/php-coveralls": "^2.0",
         "orchestra/testbench": "^5.17.1|^7.0|^8.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laminblur/laravel-password-exposed-validation-rule.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "LangleyFoxall\\LaravelNISTPasswordRules\\": "src/"
@@ -29,12 +35,6 @@
             "LangleyFoxall\\LaravelNISTPasswordRules\\Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/laminblur/laravel-password-exposed-validation-rule.git"
-        }
-    ],
     "extra": {
         "laravel": {
             "providers": [
