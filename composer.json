@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": "^8.0",
         "laravel/framework": "^10.0",
         "divineomega/laravel-password-exposed-validation-rule": "dev-master"
     },
